@@ -73,29 +73,6 @@ public class operations {
 		double z = m/n%o/p;
 		
 		System.out.println(z);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	
 	}
 
