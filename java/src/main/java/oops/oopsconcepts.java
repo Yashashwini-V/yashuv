@@ -5,11 +5,16 @@ public class oopsconcepts {
 		HumanBeing obj1 = new HumanBeing("yashu", 23, "female");
 		obj1.walk();
 		obj1.eat();
+		System.out.println(obj1.gender);
+		obj1.gender ="Male";
+		System.out.println(obj1.gender);
 		
-		HumanBeing obj2 = new HumanBeing("yadu", 19, "female");
+		HumanBeing obj2 = new HumanBeing("yadu", 19, "male");
 		obj2.walk();
 		obj2.eat();
-		
+		obj1.eat();
+		System.out.println(obj2.gender);
+
 	}	
 
 }
@@ -26,13 +31,14 @@ class HumanBeing {
 		
 	}
 	public void walk() {
-		System.out.println(this.name + "I'm walking");
+		System.out.println(this.name + " I'm walking");
 		
 	}
 	
 	public void eat() {
-		System.out.println(this.name + "I'm eating");
+		System.out.println(this.name + " I'm eating");
 	}
+	
 	
 }
 
